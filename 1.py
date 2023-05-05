@@ -25,7 +25,7 @@ def count_print():
     file_obj.writelines(results)
     file_obj.close()
 
-    with open("results.txt", "r") as fp:
+    with open("results.txt", "r") as fhttps://github.com/Kaliny4/Project_Python.gitp:
         x = len(fp.readlines())
         print("Total lines:", x)
         print("Size: ", asizeof.asizeof("results.txt"))
