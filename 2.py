@@ -74,7 +74,7 @@ def main():
         if user_input == 4:
             players_find(
                 input("Enter the parameter (name, age or number): "),
-                input("Enter the value of " / 
+                input("Enter the value of " /
                       "the parameter (f.e. Peter or 20): "),
                 team,
             )
