@@ -55,7 +55,7 @@ def main():
         print("0. Exit")
         print()
         choice = list(range(6))
-        if not (user_input := int(input(f"Enter number menu {choice}: "))):
+        if not (user_input := int(input(f"Enter number menu {choice}:"))):
             break
         if user_input == 1:
             players_repr(team)
