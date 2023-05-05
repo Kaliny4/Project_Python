@@ -56,11 +56,7 @@ def main():
         print()
         choice = list(range(6))
         if not (
-            user_input := int(
-                input(
-                    f"Enter your the number of action {choice}: "
-                    )
-                )
+            user_input := int(input(f"Enter your the number of action {choice}: "))
         ):
             break
         if user_input == 1:
@@ -74,8 +70,7 @@ def main():
         if user_input == 4:
             players_find(
                 input("Enter the parameter (name, age or number): "),
-                input("Enter the value of " /
-                      "the parameter (f.e. Peter or 20): "),
+                input("Enter value of param(f.e. Peter or 20): "),
                 team,
             )
         if user_input == 5:
